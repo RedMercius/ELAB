@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Elab</string>
+    <string name="add_recipe">Add A Recipe</string>
+    <string name="choose_recipe">Choose A Recipe</string>
+    <string name="by_genre">By Genre</string>
+    <string name="add_web">Add By Web</string>
+    <string name="add_image">Add An Image</string>
+    <string name="add_ingredients">Add Ingredients</string>
+    <string name="add_Instructions">Add Instructions</string>
+    <string name="add_notes">Add Special Notes</string>
+    <string name="baking">Baking</string>
+    <string name="grilling">Grilling</string>
+    <string name="frying">Frying</string>
+    <string name="skillet">Skillet</string>
+    <string name="create_your_own_genre">Create Your Own Genre</string>
+    <string name="by_rating">By Rating</string>
+    <string name="review">Review</string>
+    <string name="add">Add</string>
+    <string name="peruse">Peruse</string>
+    <string name="review_web">Review Web Option</string>
+    <string name="search">Search</string>
+    <string name="title_activity_add_recipe">AddRecipeActivity</string>
+    <string name="title_activity_choose_recipe">ChooseRecipeActivity</string>
+    <string name="title_activity_choose_by_genre">ChooseByGenreActivity</string>
+    <string name="title_activity_genre">GenreActivity</string>
+    <string name="title_activity_review">ReviewActivity</string>
+    <string name="title_activity_review_by_web">ReviewByWebActivity</string>
+    <string name="title_activity_review_internal">ReviewInternalActivity</string>
+    <string name="title_activity_add_by_web">AddByWebActivity</string>
+    <string name="title_activity_add_image">AddImageActivity</string>
+    <string name="title_activity_add_ingredients">AddIngredientsActivity</string>
+    <string name="title_activity_add_instructions">AddInstructionsActivity</string>
+    <string name="title_activity_add_special_notes">AddSpecialNotesActivity</string>
+    <string name="title_activity_add_notes">AddNotesActivity</string>
+</resources>

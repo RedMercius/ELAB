@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ruffinapps.elab">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddRecipeActivity"
+            android:label="@string/title_activity_add_recipe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ruffinapps.elab.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ChooseRecipeActivity"
+            android:label="@string/title_activity_choose_recipe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ruffinapps.elab.MainActivity" />
+        </activity>
+        <activity
+            android:name=".ChooseByGenreActivity"
+            android:label="@string/title_activity_choose_by_genre"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ruffinapps.elab.MainActivity" />
+        </activity>
+        <activity
+            android:name=".GenreActivity"
+            android:label="@string/title_activity_genre"
+            android:parentActivityName=".ChooseByGenreActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ruffinapps.elab.ChooseByGenreActivity" />
+        </activity>
+        <activity
+            android:name=".ReviewActivity"
+            android:label="@string/title_activity_review"
+            android:parentActivityName=".ChooseRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ruffinapps.elab.ChooseRecipeActivity" />
+        </activity>
+        <activity
+            android:name=".ReviewByWebActivity"
+            android:label="@string/title_activity_review_by_web"
+            android:parentActivityName=".ReviewActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ruffinapps.elab.ReviewActivity" />
+        </activity>
+        <activity
+            android:name=".ReviewInternalActivity"
+            android:label="@string/title_activity_review_internal"
+            android:parentActivityName=".ReviewActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ruffinapps.elab.ReviewActivity" />
+        </activity>
+        <activity
+            android:name=".AddByWebActivity"
+            android:label="@string/title_activity_add_by_web"
+            android:parentActivityName=".AddRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ruffinapps.elab.AddRecipeActivity" />
+        </activity>
+        <activity
+            android:name=".AddImageActivity"
+            android:label="@string/title_activity_add_image"
+            android:parentActivityName=".AddByWebActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ruffinapps.elab.AddByWebActivity" />
+        </activity>
+        <activity
+            android:name=".AddIngredientsActivity"
+            android:label="@string/title_activity_add_ingredients"
+            android:parentActivityName=".AddRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ruffinapps.elab.AddRecipeActivity" />
+        </activity>
+        <activity
+            android:name=".AddInstructionsActivity"
+            android:label="@string/title_activity_add_instructions"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddSpecialNotesActivity"
+            android:label="@string/title_activity_add_special_notes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddNotesActivity"
+            android:label="@string/title_activity_add_notes"
+            android:parentActivityName=".AddRecipeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.ruffinapps.elab.AddRecipeActivity" />
+        </activity>
+    </application>
+
+</manifest>
